@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #e4e4e4;
+}
+.title{font:sans-serif; color:maroon; text-align: center; display: table-cell;
+    width:100%;}
+/*--- navigation bar ---*/
+.navbar {
+  background:#bf8040;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.header {
+  background-image: url('poust2.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h1 {
+  color: #546642;
+}
+.description p {
+  color: saddlebrown;
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+table{margin:20px auto;position:center;width:100%;}
+ td {width:33.3333%;position:center;}
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;}
+
+	.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+
+}
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  width:100%;
+
+  padding: 30px 0 30px;
+}
+.footer-copyright {
+  color: #666;
+  padding: 20px 0;
+}
+.container-footer {width: 100%;}
+
+.streets { color:#00008B; text-align: center; display: block; width: 100%; }
+.sunsets { color:#DC143C; text-align: center; display: block; width: 100%; }
+.plants { color:#006400; text-align: center; display: block; width: 100%; }
+.gallery{margin:20px 20px;}
+.gallery img{transition:1s;
+             padding:10px;
+             width:200px}
+.gallery img:hover{filter:grayscale(100%); transform:scale(1.2);}
+
